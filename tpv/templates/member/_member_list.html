@@ -1,0 +1,50 @@
+<!--<link rel="stylesheet" type="text/css" href="css/member_styles.css">-->
+<link rel="stylesheet" href="css/style-client-list.css">
+
+<section class="memberContainer">
+    <div class="fondo">
+    <h1 class="big thin blue"><i class="fa fa-user" aria-hidden="true"></i> Members</h1>
+    <a class="btn bold" href="member/insertUser">Add member</a>
+    <!--<table border="1">-->
+    <!--    <thead>-->
+    <!--        <tr>-->
+    <!--            <td>Id</td>-->
+    <!--            <td>Login</td>-->
+    <!--            <td>Borrar</td>-->
+    <!--            <td>Editar</td>-->
+    <!--        </tr>-->
+    <!--    <thead>-->
+    <!--    <tbody>-->
+    <!--        {{listado}}-->
+    <!--    <tbody>-->
+    <!--</table>-->
+    
+    <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr >
+            <th class="medium">Id</th>
+            <th class="medium">Login</th>
+            <th class="medium">Action</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        {{listado}}
+      </tbody>
+    </table>
+  </div>
+    {{rango}}
+    <br>
+    
+    </div>
+</section>    
+    <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/block.js"></script>
+    <script type="text/javascript" src="js/member/deleteMember.js"></script>
+</body>
+</html>
+

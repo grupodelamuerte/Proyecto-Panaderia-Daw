@@ -1,0 +1,9 @@
+[26-Feb-2018 08:50:59 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/ubuntu/workspace/wordpress/wp-content/themes/panaderia/switchlang.php on line 5
+[26-Feb-2018 08:50:59 UTC] PHP Stack trace:
+[26-Feb-2018 08:50:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/panaderia/switchlang.php:0
+[27-Feb-2018 07:41:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wordpress/wp-content/themes/panaderia/index.php on line 2
+[27-Feb-2018 07:41:20 UTC] PHP Stack trace:
+[27-Feb-2018 07:41:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/panaderia/index.php:0
+[27-Feb-2018 07:41:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wordpress/wp-content/themes/panaderia/index.php on line 2
+[27-Feb-2018 07:41:23 UTC] PHP Stack trace:
+[27-Feb-2018 07:41:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wordpress/wp-content/themes/panaderia/index.php:0

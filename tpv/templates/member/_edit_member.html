@@ -1,0 +1,22 @@
+<section class="memberContainer">
+    <div class="fondo">
+        <h1 class="big thin blue"><i class="fa fa-user" aria-hidden="true"></i> Edit member</h1>
+        <div class="fieldinfo">
+            The username must have more than 4 characters.<br>
+            The password must have more than 4 characters and have at least one digit and one letter.
+        </div>
+    <form id="form" action="member/doEditUser" method="post">
+        <input class="medium" id="login" type="text" name="login" value = "{{login}}"/>
+        <input class="medium" id="clave" type="password" name="clave" placeholder = "Pass"/>
+        <input class="medium" id="claveRep" type="password" name="claveRep" placeholder = "Pass again"/>
+        <input type="hidden" name="id" value="{{id}}"/>
+        <input class="medium btn" type="submit" value="Save"/>
+    </form>
+    <a href="member/listmember" class="btn">Go back</a>
+    </div>
+</section>    
+    <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/block.js"></script>
+    <script type="text/javascript" src="js/member/editMember.js"></script>
+</body>
+</html>
